@@ -1,0 +1,149 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Ephesis&family=Kings&family=Open+Sans:wght@300&family=Pacifico&family=Smooch&family=Teko:wght@300&display=swap');
+
+#searchBar{
+    width: 400px;
+    height: 40px;
+    padding: 5px 10px;
+    border: 3px solid;
+    border-radius: 20px;
+    outline: color black;
+    margin-left: 47px;
+    margin-top: 30px;
+}
+#k1{
+    margin-left: 50px;
+}
+#g1{
+    margin-left: 330px;
+
+}
+#f1{
+    margin-left: 20px;
+}
+#b1{
+    margin-left: 20px;
+}
+.a1{
+    height: 90px;
+    width: 100%;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#q1{
+    text-decoration: none;
+    color: black;
+    margin-left:30px ;
+    font-size: 20px;
+
+     
+}
+b{
+    font-family: 'Smooch', cursive;
+}
+.w1{
+    height: 600px;
+    width: 100%;
+    background-color: aliceblue;
+   animation: anim 6s ease .5s infinite; 
+}
+@keyframes anim{
+    0%{
+        background-image: url(./images/shopping.jpg);
+        background-size: 80%;
+
+    }
+    50%{
+        background-image: url(./images/shop2.jpg);
+         background-size:50%
+
+    }
+    100%{                                
+        background-image: url(./images/shop3.jpg);
+         background-size: 50%;
+
+    }
+} 
+
+.t1{
+    text-align: center;
+}
+
+   
+
+.row{
+    height:400px;
+    
+    position: relative;
+    left: 200px;
+    top: -14px;
+background-color: white;
+}
+.col{
+    height: 344px;
+    width: 289px;
+   
+    position: absolute;
+    top: 50px;
+   
+
+}
+.c1{
+    left: -145px;
+}
+.c2{
+    left: 181px;
+
+}
+.c3{
+    left: 502px;
+}
+.c4{
+    left: 827px;
+}
+.c5{
+    left: 1150px;
+}
+.c6{
+    left: 1472px;
+}
+img{
+    height:344px ;
+    width: 289px;
+    position: absolute;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.offer{
+    height: 112px;
+    width: 92%;
+    
+    background-color:rgba(255, 0, 0, 0.61);
+    color: azure;
+    position: absolute;
+    top: 222px;
+    left: 11px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+   
+}
+
+p{
+    text-align: center;
+    font-size: x-large;
+}
+.n1{
+    position: fixed;
+    height: 382px;
+    width: 77px;
+    top: 344px;
+    right: 0px;
+    background-color: grey;
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+}
+
+
+
+   
